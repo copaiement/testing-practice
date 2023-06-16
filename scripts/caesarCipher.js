@@ -29,7 +29,7 @@ function shiftChar(char, shift) {
   return char;
 }
 
-function caesarCypher(string, shift) {
+function caesarCipher(string, shift) {
   if (checkInputs(string, shift)) {
     let newString = '';
     for (let i = 0; i < string.length; i++) {
@@ -44,4 +44,4 @@ function caesarCypher(string, shift) {
 // A-Z, a-z
 // all other characters stay the same
 
-module.exports = caesarCypher;
+module.exports = caesarCipher;
